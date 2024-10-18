@@ -11,7 +11,7 @@ from selenium.webdriver.chrome.options import Options
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
-
+print("vs code で編集")
 def get_item_ids_from_spreadsheet(credentials_path, spreadsheet_name, sheet_name):
     # Google APIの認証情報の設定
     scope = ["https://spreadsheets.google.com/feeds", 'https://www.googleapis.com/auth/spreadsheets',
